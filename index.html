@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payasvini Panchgavya & Panchakarma Wellness Centre | Healing Mind, Body & Soul</title>
+  <meta name="description" content="Payasvini Panchgavya & Panchakarma Wellness Centre in Jamshedpur offers holistic Ayurvedic healing, Panchakarma therapy, Naturopathy, Yoga & Meditation, Acupuncture, and personalized wellness consultations.">
+  <meta name="keywords" content="Ayurveda, Panchakarma, Panchgavya, Wellness Centre, Naturopathy, Yoga, Jamshedpur, Holistic Healing, Acupuncture">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#home" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c1.85 0 3.58-.5 5.07-1.38"/>
+            <path d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4"/>
+            <path d="M12 2v4"/>
+            <path d="M12 18v4"/>
+            <circle cx="12" cy="12" r="1"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          Payasvini
+          <small>Wellness Centre</small>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" onclick="closeMenu()">Home</a>
+        <a href="#about" onclick="closeMenu()">About</a>
+        <a href="#services" onclick="closeMenu()">Services</a>
+        <a href="#doctor" onclick="closeMenu()">Doctor</a>
+        <a href="#gallery" onclick="closeMenu()">Gallery</a>
+        <a href="#testimonials" onclick="closeMenu()">Testimonials</a>
+        <a href="#contact" onclick="closeMenu()">Contact</a>
+      </nav>
+
+      <div class="nav-cta" id="navCta">
+        <a href="#appointment" class="btn btn-primary" onclick="closeMenu()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Book Consultation
+        </a>
+      </div>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="images/hero-bg.png" alt="Peaceful wellness environment">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-decor hero-decor-1"></div>
+    <div class="hero-decor hero-decor-2"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          Trusted Holistic Wellness Centre
+        </div>
+        <h1 class="hero-title">
+          Payasvini Panchgavya &<br>
+          <span class="highlight">Panchakarma Wellness Centre</span>
+        </h1>
+        <p class="hero-tagline">✦ Healing Mind, Body & Soul ✦</p>
+        <p class="hero-desc">
+          Experience holistic wellness with integrated therapies rooted in ancient Ayurvedic wisdom. Restore balance, rejuvenate your body, and find inner peace with our personalized healing programs.
+        </p>
+        <div class="hero-buttons">
+          <a href="#appointment" class="btn btn-gold">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Book Consultation
+          </a>
+          <a href="tel:8292686377" class="btn btn-secondary" style="background: rgba(255,255,255,0.12); color: #fff; border-color: rgba(255,255,255,0.3);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Now
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="number">10+</div>
+            <div class="label">Years Experience</div>
+          </div>
+          <div class="hero-stat">
+            <div class="number">5000+</div>
+            <div class="label">Happy Patients</div>
+          </div>
+          <div class="hero-stat">
+            <div class="number">15+</div>
+            <div class="label">Therapies</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="images/about.png" alt="Ayurvedic healing herbs and therapies">
+        </div>
+        <div class="hero-float-card card-1">
+          <div class="icon green">🌿</div>
+          <div class="info">
+            <h4>100% Natural</h4>
+            <p>Pure herbal therapies</p>
+          </div>
+        </div>
+        <div class="hero-float-card card-2">
+          <div class="icon gold">✦</div>
+          <div class="info">
+            <h4>Holistic Healing</h4>
+            <p>Mind, body & soul</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-image fade-left">
+        <div class="about-image-main">
+          <img src="images/about.png" alt="Natural Ayurvedic healing herbs">
+        </div>
+        <div class="about-accent"></div>
+        <div class="about-experience">
+          <div class="number">10+</div>
+          <div class="text">Years of Healing</div>
+        </div>
+      </div>
+
+      <div class="about-content fade-right">
+        <div class="section-badge">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          About Our Centre
+        </div>
+        <h2 class="section-title">Where Nature Meets <span>Healing</span></h2>
+        <p class="about-text">
+          At Payasvini Panchgavya & Panchakarma Wellness Centre, we believe that true healing begins when the mind, body, and soul work in harmony. Our centre offers a sanctuary of natural, holistic therapies rooted in the timeless wisdom of Ayurveda.
+        </p>
+        <p class="about-text">
+          We focus on complete body detoxification, restoring natural balance, boosting immunity, and nurturing inner peace. Every therapy is thoughtfully personalized to address the root cause of ailments — not just the symptoms.
+        </p>
+        <div class="about-features">
+          <div class="about-feature">
+            <div class="check">✓</div>
+            <span>Natural Healing</span>
+          </div>
+          <div class="about-feature">
+            <div class="check">✓</div>
+            <span>Body Detoxification</span>
+          </div>
+          <div class="about-feature">
+            <div class="check">✓</div>
+            <span>Immune Boosting</span>
+          </div>
+          <div class="about-feature">
+            <div class="check">✓</div>
+            <span>Personalized Care</span>
+          </div>
+        </div>
+        <a href="#appointment" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Schedule a Consultation
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-badge">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58a.49.49 0 00.12-.61l-1.92-3.32a.488.488 0 00-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.484.484 0 00-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58a.49.49 0 00-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6A3.6 3.6 0 1115.6 12 3.611 3.611 0 0112 15.6z"/></svg>
+          Our Services
+        </div>
+        <h2 class="section-title">Holistic Therapies for <span>Complete Wellness</span></h2>
+        <p class="section-subtitle">Each therapy is designed to restore your natural balance and promote healing from within, using time-tested methods and natural ingredients.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card fade-up">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>Panchgavya Therapy</h3>
+          <p>Harness the divine healing power of five sacred cow products — milk, curd, ghee, urine, and dung — for deep body purification and immune strengthening.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card fade-up">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+          </div>
+          <h3>Panchakarma & Marma Therapy</h3>
+          <p>Experience the ancient five-step detoxification process combined with vital energy point stimulation for complete body rejuvenation and toxin removal.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card fade-up">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Naturopathy</h3>
+          <p>Tap into the body's innate healing ability through natural therapies including hydrotherapy, mud therapy, and lifestyle modifications for sustainable wellness.</p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card fade-up">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+          </div>
+          <h3>Acupuncture & Acupressure</h3>
+          <p>Restore the flow of life energy through precise pressure point stimulation, relieving chronic pain, stress, and promoting natural healing responses.</p>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card fade-up">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h3>Dietetics & Nutrition</h3>
+          <p>Receive personalized Ayurvedic dietary plans tailored to your body constitution (Prakriti) for optimal health, digestion, and natural weight management.</p>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card fade-up">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 00-3 3v12a3 3 0 003 3 3 3 0 003-3 3 3 0 00-3-3H6a3 3 0 00-3 3 3 3 0 003 3 3 3 0 003-3V6a3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3h12a3 3 0 003-3 3 3 0 00-3-3z"/></svg>
+          </div>
+          <h3>Yoga & Meditation</h3>
+          <p>Discover inner balance through guided yoga sessions and meditation practices designed to calm the mind, strengthen the body, and elevate spiritual awareness.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOCTOR ===== -->
+  <section class="doctor" id="doctor">
+    <div class="container">
+      <div class="doctor-image fade-left">
+        <div class="doctor-photo">
+          <img src="images/doctor.png" alt="Gavyasidh Dr. Neelu Singh">
+          <div class="doctor-badge">
+            <div class="icon">⚕</div>
+            <div class="info">
+              <h4>Gavyasidh Dr. Neelu Singh</h4>
+              <p>Holistic Wellness Expert</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="doctor-content fade-right">
+        <div class="section-badge">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+          Meet Our Doctor
+        </div>
+        <h2 class="section-title">Your Guide to <span>Holistic Healing</span></h2>
+        <h3 class="doctor-name">Gavyasidh Dr. Neelu Singh</h3>
+        <p class="doctor-title">Founder & Chief Wellness Consultant</p>
+
+        <p class="doctor-text">
+          With over a decade of dedicated practice in holistic wellness and Ayurvedic healing, Dr. Neelu Singh has helped thousands of patients rediscover their natural health and vitality. Her deep understanding of Panchgavya therapy, Panchakarma detoxification, and integrated wellness approaches sets her apart as a trusted healer in the community.
+        </p>
+        <p class="doctor-text">
+          Dr. Singh believes in treating the whole person — not just the disease. Her compassionate, patient-centered approach combines ancient Ayurvedic wisdom with modern understanding, providing a safe and nurturing healing experience for every individual who walks through our doors.
+        </p>
+
+        <div class="doctor-specialties">
+          <span class="doctor-specialty">Panchgavya Therapy</span>
+          <span class="doctor-specialty">Panchakarma</span>
+          <span class="doctor-specialty">Naturopathy</span>
+          <span class="doctor-specialty">Acupuncture</span>
+          <span class="doctor-specialty">Yoga Therapy</span>
+          <span class="doctor-specialty">Diet Counseling</span>
+        </div>
+
+        <a href="#appointment" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Book Appointment with Dr. Singh
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-badge">Why Choose Us</div>
+        <h2 class="section-title">The Payasvini <span style="color: var(--gold-300);">Difference</span></h2>
+        <p class="section-subtitle">We go beyond treating symptoms — we nurture your entire being with compassion, care, and centuries-old healing wisdom.</p>
+      </div>
+
+      <div class="why-us-grid">
+        <div class="why-us-card fade-up">
+          <div class="why-us-icon">🌿</div>
+          <h3>Natural Healing</h3>
+          <p>100% natural and herbal therapies with no side effects. We use only pure, authentic Ayurvedic ingredients sourced from nature.</p>
+        </div>
+        <div class="why-us-card fade-up">
+          <div class="why-us-icon">🤲</div>
+          <h3>Personalized Care</h3>
+          <p>Every treatment plan is uniquely designed based on your individual constitution, health history, and specific wellness goals.</p>
+        </div>
+        <div class="why-us-card fade-up">
+          <div class="why-us-icon">🏆</div>
+          <h3>Experienced Guidance</h3>
+          <p>Led by Dr. Neelu Singh with over a decade of expertise in holistic healing and thousands of successfully treated patients.</p>
+        </div>
+        <div class="why-us-card fade-up">
+          <div class="why-us-icon">🔬</div>
+          <h3>Root Cause Focus</h3>
+          <p>We identify and treat the root cause of your health concerns, not just the surface symptoms, for lasting and sustainable results.</p>
+        </div>
+        <div class="why-us-card fade-up">
+          <div class="why-us-icon">🧘</div>
+          <h3>Holistic Approach</h3>
+          <p>Integrated therapies combining Ayurveda, Naturopathy, Yoga, and modern wellness practices for complete mind-body healing.</p>
+        </div>
+        <div class="why-us-card fade-up">
+          <div class="why-us-icon">🏡</div>
+          <h3>Peaceful Environment</h3>
+          <p>A calm, supportive, and nurturing environment where you can truly relax, heal, and reconnect with your inner peace.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== APPOINTMENT ===== -->
+  <section class="appointment" id="appointment">
+    <div class="container">
+      <div class="appointment-info fade-left">
+        <div class="section-badge">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="2"/><line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="2"/><line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="2"/></svg>
+          Book Appointment
+        </div>
+        <h2 class="appointment-info h2 section-title" style="text-align: left;">Book Your <span>Consultation</span> Today</h2>
+        <p>Take the first step towards natural healing and holistic wellness. Connect with us for a personalized consultation — we're here to listen, guide, and heal with care.</p>
+
+        <div class="appointment-contact-cards">
+          <a href="tel:06574100655" class="appointment-contact-card">
+            <div class="icon phone">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div class="info">
+              <h4>Call Us</h4>
+              <p>0657-4100655 &nbsp;|&nbsp; 8292686377</p>
+            </div>
+          </a>
+
+          <a href="https://wa.me/918292686377?text=Hello%2C%20I%20would%20like%20to%20book%20a%20consultation." target="_blank" class="appointment-contact-card">
+            <div class="icon whatsapp">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div class="info">
+              <h4>WhatsApp Us</h4>
+              <p>Send a message anytime</p>
+            </div>
+          </a>
+
+          <div class="appointment-contact-card">
+            <div class="icon clock">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="info">
+              <h4>Working Hours</h4>
+              <p>Mon – Sat: 9:00 AM – 7:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="appointment-form-wrapper fade-right">
+        <h3>Request a Consultation</h3>
+        <form id="appointmentForm" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Select a service</option>
+              <option value="panchgavya">Panchgavya Therapy</option>
+              <option value="panchakarma">Panchakarma & Marma Therapy</option>
+              <option value="naturopathy">Naturopathy</option>
+              <option value="acupuncture">Acupuncture & Acupressure</option>
+              <option value="dietetics">Dietetics & Nutrition</option>
+              <option value="yoga">Yoga & Meditation</option>
+              <option value="general">General Consultation</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message (Optional)</label>
+            <textarea id="message" name="message" placeholder="Tell us about your health concern..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Send Consultation Request
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-badge">Gallery</div>
+        <h2 class="section-title">Our Healing <span>Environment</span></h2>
+        <p class="section-subtitle">A glimpse into our peaceful wellness centre — where every detail is designed to promote calm, comfort, and natural healing.</p>
+      </div>
+
+      <div class="gallery-grid fade-up">
+        <div class="gallery-item">
+          <img src="images/gallery-treatment.png" alt="Treatment room">
+          <div class="gallery-overlay"><span>Treatment Room</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-herbs.png" alt="Healing herbs">
+          <div class="gallery-overlay"><span>Healing Herbs</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/about.png" alt="Natural ingredients">
+          <div class="gallery-overlay"><span>Natural Ingredients</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-therapy.png" alt="Ayurvedic therapy">
+          <div class="gallery-overlay"><span>Ayurvedic Therapy</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-nature.png" alt="Healing garden">
+          <div class="gallery-overlay"><span>Healing Garden</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-badge">Testimonials</div>
+        <h2 class="section-title">What Our <span>Patients Say</span></h2>
+        <p class="section-subtitle">Real stories of healing, relief, and renewed wellness from the people who trusted us with their health journey.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card fade-up">
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">After years of chronic joint pain and trying multiple treatments, Panchakarma therapy at Payasvini gave me incredible relief. Dr. Neelu Singh's personalized approach truly changed my life. I feel rejuvenated and full of energy.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RK</div>
+            <div class="testimonial-author-info">
+              <h4>Rajesh Kumar</h4>
+              <p>Jamshedpur</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card fade-up">
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">The peaceful environment and genuine care at this centre is extraordinary. The Panchgavya therapy helped with my digestive issues remarkably. Dr. Singh explains everything patiently and the healing feels natural and lasting.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">SM</div>
+            <div class="testimonial-author-info">
+              <h4>Sunita Mahato</h4>
+              <p>Sonari, Jamshedpur</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card fade-up">
+          <div class="testimonial-stars">★★★★★</div>
+          <div class="testimonial-quote">"</div>
+          <p class="testimonial-text">I came here stressed and exhausted. The yoga and meditation sessions, combined with naturopathy treatments, brought back my inner peace. This is not just a clinic — it is a sanctuary for holistic healing. Highly recommended!</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AP</div>
+            <div class="testimonial-author-info">
+              <h4>Amit Prasad</h4>
+              <p>Bistupur, Jamshedpur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-badge">Contact Us</div>
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <p class="section-subtitle">Visit our wellness centre or reach out to us — we'd love to help you begin your healing journey.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info-cards fade-left">
+          <div class="contact-card">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:06574100655">0657-4100655</a></p>
+              <p><a href="tel:8292686377">8292686377</a></p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="icon" style="background: #25d366;">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22" style="color:#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p><a href="https://wa.me/918292686377" target="_blank">Send us a message</a></p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4>Address</h4>
+              <p>B Block, Near Cinema Maidan,<br>Sonari, Jamshedpur - 831011</p>
+            </div>
+          </div>
+
+          <div class="contact-hours">
+            <h4>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Opening Hours
+            </h4>
+            <ul class="contact-hours-list">
+              <li><span>Monday – Friday</span> <span>9:00 AM – 7:00 PM</span></li>
+              <li><span>Saturday</span> <span>9:00 AM – 5:00 PM</span></li>
+              <li><span>Sunday</span> <span>By Appointment</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="contact-map fade-right">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.8!2d86.19!3d22.78!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDQ2JzQ4LjAiTiA4NsKwMTEnMjQuMCJF!5e0!3m2!1sen!2sin!4v1650000000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Payasvini Wellness Centre Location"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-text">
+            Payasvini
+            <small>Panchgavya & Panchakarma Wellness Centre</small>
+          </div>
+          <p class="footer-desc">
+            A sanctuary of natural healing dedicated to restoring balance, vitality, and inner peace through holistic Ayurvedic therapies and personalized wellness programs.
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"/></svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">→ Home</a></li>
+            <li><a href="#about">→ About Us</a></li>
+            <li><a href="#services">→ Services</a></li>
+            <li><a href="#doctor">→ Our Doctor</a></li>
+            <li><a href="#gallery">→ Gallery</a></li>
+            <li><a href="#testimonials">→ Testimonials</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#services">→ Panchgavya Therapy</a></li>
+            <li><a href="#services">→ Panchakarma</a></li>
+            <li><a href="#services">→ Naturopathy</a></li>
+            <li><a href="#services">→ Acupuncture</a></li>
+            <li><a href="#services">→ Dietetics & Nutrition</a></li>
+            <li><a href="#services">→ Yoga & Meditation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <p>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            B Block, Near Cinema Maidan, Sonari, Jamshedpur - 831011
+          </p>
+          <p>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            0657-4100655 | 8292686377
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2024 Payasvini Panchgavya & Panchakarma Wellness Centre. All rights reserved.</p>
+        <p>Designed with 🌿 for natural healing</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING WHATSAPP ===== -->
+  <a href="https://wa.me/918292686377?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20wellness%20services." target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- ===== SCROLL TO TOP ===== -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
